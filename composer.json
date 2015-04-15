@@ -1,0 +1,24 @@
+{
+    "name": "quiccode/quiccode",
+    "description": "quiccode framework",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "'wangyusong'",
+            "email": "admin@wangyusong.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "*",
+        "filp/whoops": "*",
+        "phpmailer/phpmailer": "dev-master"
+
+        },
+
+    "autoload": {
+        "psr-4": {
+                "quiccode\\": "quiccode/src"
+            }
+    } 
+}
