@@ -13,12 +13,12 @@
         "illuminate/database": "*",
         "filp/whoops": "*",
         "phpmailer/phpmailer": "dev-master"
-
         },
 
     "autoload": {
         "psr-4": {
-                "quiccode\\": "quiccode/src"
+                "quiccode\\": "quiccode/src",
+                "App\\": "App/"
             }
     } 
 }

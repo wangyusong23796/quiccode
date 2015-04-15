@@ -8,7 +8,7 @@ define("ROOT_PATH",str_replace("\\","/",dirname(dirname(__FILE__))));
 //定义base
 define('BASE_PATH',str_replace('\\','/',realpath(dirname(__FILE__).'/'))."/");
 
-define('APP_PATH',ROOT_PATH."/Home/");
+define('APP_PATH',ROOT_PATH."/App/Home/");
 
 
 
