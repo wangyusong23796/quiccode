@@ -1,6 +1,6 @@
-<?php namespace quiccode\Mvc;
+<?php namespace QuicCode\Mvc;
 
-use quiccode\Route\Route;
+use QuicCode\Route\Route;
 use Illuminate\Database\Capsule\Manager as database;
 
 

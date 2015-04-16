@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c374e77fa2eedeb2d7a847ec2678c62",
+    "hash": "0dddc2243a0849c436c2bb203df12f4e",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -186,6 +186,55 @@
                 "zf2"
             ],
             "time": "2015-03-30 15:26:59"
+        },
+        {
+            "name": "g4/http",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/g4code/http.git",
+                "reference": "aebc087234858b8059d81c9da19b1ab378e2fe58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/g4code/http/zipball/aebc087234858b8059d81c9da19b1ab378e2fe58",
+                "reference": "aebc087234858b8059d81c9da19b1ab378e2fe58",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "G4\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drasko Gomboc",
+                    "email": "drasko.gomboc@gmail.com"
+                },
+                {
+                    "name": "Dejan Samardzija",
+                    "email": "samardzija.dejan@gmail.com"
+                },
+                {
+                    "name": "Ivan Krickovic",
+                    "email": "ivan.krickovic@gmail.com"
+                }
+            ],
+            "description": "g4 http request and response objects, for now taken and edited from ZF1",
+            "keywords": [
+                "http",
+                "request",
+                "response"
+            ],
+            "time": "2015-03-20 09:26:57"
         },
         {
             "name": "illuminate/container",

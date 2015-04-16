@@ -1,3 +1,3 @@
-<?php use quiccode\Route\Route;
+<?php use QuicCode\Route\Route;
 
 Route::get("/","IndexController@index");

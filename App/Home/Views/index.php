@@ -3,8 +3,6 @@
 
 
 ?>
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -13,6 +11,9 @@
 </head>
 
 <body>
-
+	<?php foreach($a as $v){?>
+	<h1><?php echo $v->title?></h1>
+	<p><?php echo $v->common?></p>
+	<?php }?>
 </body>
 </html>

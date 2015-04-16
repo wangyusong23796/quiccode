@@ -1,5 +1,5 @@
 <?php
-use quiccode\Mvc\Mvc;
+use QuicCode\Mvc\Mvc;
 
 require '../vendor/autoload.php';
 

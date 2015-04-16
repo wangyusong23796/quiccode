@@ -1,4 +1,4 @@
-<?php namespace quiccode\View;
+<?php namespace QuicCode\View;
 
 
 class View{

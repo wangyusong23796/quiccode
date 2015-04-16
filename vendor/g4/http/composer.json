@@ -1,0 +1,33 @@
+{
+    "name": "g4/http",
+    "description": "g4 http request and response objects, for now taken and edited from ZF1",
+    "keywords": [
+        "http",
+        "request",
+        "response"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dejan Samardzija",
+            "email": "samardzija.dejan@gmail.com"
+        },
+        {
+            "name": "Drasko Gomboc",
+            "email": "drasko.gomboc@gmail.com"
+        },
+        {
+            "name": "Ivan Krickovic",
+            "email": "ivan.krickovic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"G4\\Http\\": "src/"}
+    },
+    "require-dev": {
+
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}

@@ -1,6 +1,6 @@
-<?php namespace quiccode\Controller;
+<?php namespace QuicCode\Controller;
 
-use quiccode\View\View;
+use QuicCode\View\View;
 
 
 class Controller{

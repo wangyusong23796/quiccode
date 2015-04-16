@@ -1,4 +1,4 @@
-<?php namespace quiccode\Route;
+<?php namespace QuicCode\Route;
 
 class Route
 {

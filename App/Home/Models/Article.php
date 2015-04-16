@@ -1,6 +1,6 @@
 <?php namespace App\Home\Models;
 
-use quiccode\Model\Model;
+use QuicCode\Model\Model;
 
 class Article extends Model{
 

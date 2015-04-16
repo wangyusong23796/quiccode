@@ -1,8 +1,8 @@
 <?php
 
 use App\Home\Models\Article;
-use quiccode\View\View;
-use quiccode\Controller\Controller;
+use QuicCode\View\View;
+use QuicCode\Controller\Controller;
 
 class IndexController extends Controller{
 
@@ -13,7 +13,7 @@ class IndexController extends Controller{
 	{
 		$a = Article::all();
 
-		$this->view = View::display('index');
+		$this->view = View::display('index')->add('a',$a);
 	}
 
 

@@ -1,4 +1,4 @@
-<?php namespace quiccode\Model;
+<?php namespace QuicCode\Model;
 
 use Illuminate\Database\Eloquent\Model as Orm_Model;
 

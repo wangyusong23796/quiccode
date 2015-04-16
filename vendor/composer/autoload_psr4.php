@@ -6,11 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'quiccode\\' => array($baseDir . '/quiccode/src'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'QuicCode\\' => array($baseDir . '/QuicCode/src'),
     'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
     'Illuminate\\Database\\' => array($vendorDir . '/illuminate/database'),
     'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
     'Illuminate\\Container\\' => array($vendorDir . '/illuminate/container'),
+    'G4\\Http\\' => array($vendorDir . '/g4/http/src'),
     'App\\' => array($baseDir . '/App'),
 );

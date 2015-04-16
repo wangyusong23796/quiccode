@@ -12,12 +12,13 @@
         "php": ">=5.4.0",
         "illuminate/database": "*",
         "filp/whoops": "*",
-        "phpmailer/phpmailer": "dev-master"
+        "phpmailer/phpmailer": "dev-master",
+        "g4/http": "0.2.*"
         },
 
     "autoload": {
         "psr-4": {
-                "quiccode\\": "quiccode/src",
+                "QuicCode\\": "QuicCode/src",
                 "App\\": "App/"
             }
     } 
