@@ -11,6 +11,10 @@
 </head>
 
 <body>
+	<form action="/" method="get">
+		<input type="text" name="nihao"/>
+		<input type="submit" />
+	</form>
 	<?php foreach($a as $v){?>
 	<h1><?php echo $v->title?></h1>
 	<p><?php echo $v->common?></p>

@@ -1,5 +1,10 @@
 <?php
 use QuicCode\Mvc\Mvc;
+use ICanBoogie\HTTP\Request;
+use ICanBoogie\Routing\Dispatcher;
+use ICanBoogie\Routing\Routes;
+
+
 
 require '../vendor/autoload.php';
 
@@ -10,7 +15,9 @@ define('BASE_PATH',str_replace('\\','/',realpath(dirname(__FILE__).'/'))."/");
 
 define('APP_PATH',ROOT_PATH."/App/Home/");
 
-
+//Mvc::Run();
 
 Mvc::Run();
+
+
 

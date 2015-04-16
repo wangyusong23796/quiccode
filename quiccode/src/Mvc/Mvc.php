@@ -1,6 +1,7 @@
 <?php namespace QuicCode\Mvc;
 
 use QuicCode\Route\Route;
+
 use Illuminate\Database\Capsule\Manager as database;
 
 
@@ -8,8 +9,8 @@ class Mvc{
 
 	public static function Run()
 	{
+
 			//注册数据库..
-		
 			$capsule = new database;
 			$capsule->addConnection(require ROOT_PATH.'/config/database.php');
 			$capsule->bootEloquent();
